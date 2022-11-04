@@ -1,20 +1,27 @@
 import axios from 'axios';
 const Cadastro_API_BASE_URL = "http://localhost:8080/api/v1/cadastros";
+
 class  CadastroService {
-get Cadastros(){
+
+getCadastros(){
 return axios.get( Cadastro_API_BASE_URL);
 }
-create Cadastro( cadastro){
+createCadastro( cadastro){
 return axios.post( Cadastro_API_BASE_URL, cadastro);
 }
-getCadastroById(cadastroId){
-return axios.get( Cadastro_API_BASE_URL + '/' + cadastroId);
+getCadastroById(cadastrocod_pessoa){
+return axios.get( Cadastro_API_BASE_URL + '/' + cadastrocod_pessoa);
 }
-update Cadastro(cadastro, cadastroId){
-return axios.put( Cadastro_API_BASE_URL + '/' + cadastroId, cadastro);
+updateCadastro(cadastro, cadastrocod_pessoa){
+return axios.put( Cadastro_API_BASE_URL + '/' + cadastrocod_pessoa, cadastro);
 }
-delete Cadastro(cadastroId){
-return axios.delete( Cadastro_API_BASE_URL + '/' + cadastroId);
+deleteCadastro(cadastrocod_pessoa){
+return axios.delete( Cadastro_API_BASE_URL + '/' + cadastrocod_pessoa);
 }
 }
 export default new  CadastroService()
+
+
+
+
+

@@ -15,8 +15,8 @@ return (
 <Switch>
 <Route path = "/" exact component = {ListCadastroComponent}></Route>
 <Route path = "/cadastros" component = {ListCadastroComponent}></Route>
-<Route path = "/add-cadastro/:id" component = {CreateCadastroComponent}></Route>
-<Route path = "/view-cadastro/:id" component = {ViewCadastroComponent}></Route>
+<Route path = "/add-cadastro/:cod_pessoa" component = {CreateCadastroComponent}></Route>
+<Route path = "/view-cadastro/:cod_pessoa" component = {ViewCadastroComponent}></Route>
 </Switch>
 </div>
 <FooterComponent />
