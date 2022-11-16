@@ -1,0 +1,184 @@
+
+.overlay-image {
+  
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-position: center;
+    background-size: cover;
+    
+ }
+
+  .button1
+  {
+    text-align: center;
+   }
+
+  
+.texto {
+  text-align: left;
+
+}
+
+
+
+
+
+.bg-c {background-color: white;
+}
+
+.bg-c1{
+  background-color: #FFFFFF;
+  padding-left: 10px;
+
+}
+
+.project-p {
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  color: #6a6a6a;
+  padding-top: 4rem;
+}
+.project-h1 {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.history-p {
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Open Sans', sans-serif;
+  color:white;
+  padding-top: 18rem;
+}
+.history-h1 {
+  text-align: center;
+  padding-bottom: 2rem;
+  color:#e6633d;
+}
+/*css do header */
+.coloring{
+  color: black;
+  
+}
+.nav-item1  {
+ 
+  background: black;
+  text-align: center;
+
+  font-size: 10px;
+}
+.bg-dark{
+  color:#ef9539;
+  padding: 10px;
+  text-align: center;
+}
+.col{
+  padding: 10px;
+
+}
+/*inicio do footer */
+
+.FaleConosco{
+  text-align:center;
+  color: #e6633d;
+font-size: 10px;
+}
+
+
+
+.divGaleria{
+  margin: 20px;
+  padding: 20px;
+  text-align: justify;
+
+}
+
+.Social{
+  display: flex;
+  justify-content: center;
+ 
+
+
+}
+
+.List{
+  list-style: none;
+
+}
+
+.Rodape{
+  text-align:center;
+  color: #e6633d;
+  
+}
+
+.Historia{
+  text-align:center;
+  
+
+}
+
+
+/* immagem de fundo */
+
+#img-bg{
+
+  background-image: url("../src/assets/imagens/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+    
+  
+    }
+   
+      /* Historia */
+    .bg-dark{
+      
+      margin-top:10% ;
+      margin-bottom: 10%;  
+
+    }
+
+
+
+#imagem {
+  background-image: url("../src/assets/imagens/adam-winger-Z1ydzL0FdoU-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height:50%;
+
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
